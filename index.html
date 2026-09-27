@@ -1,13 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Seed to Forest</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>Hello World!</h1>
-    <p>This is my first website.</p>
+    <!-- Progress bar -->
+    <div class="progress-bar" id="progressBar"></div>
 
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-background"></div>
+
+        <div class="hero-content">
+            <p class="eyebrow">A STORY IN MOTION</p>
+            <h1>From Seed<br>to Forest</h1>
+            <p class="intro">
+                Every forest begins with something small.
+            </p>
+
+            <div class="scroll-indicator">
+                <span>SCROLL TO BEGIN</span>
+                <div class="arrow">↓</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CHAPTER 1 -->
+    <section class="chapter chapter-one">
+        <div class="chapter-content reveal">
+            <p class="chapter-number">01</p>
+            <h2>It starts<br>with a seed.</h2>
+            <p>
+                Buried beneath the soil, a tiny seed waits.
+                It looks insignificant, but everything the tree
+                will become is already inside it.
+            </p>
+        </div>
+
+        <div class="seed-scene">
+            <div class="sun"></div>
+            <div class="ground"></div>
+            <div class="seed" id="seed"></div>
+        </div>
+    </section>
+
+
+    <!-- CHAPTER 2 -->
+    <section class="chapter chapter-two">
+        <div class="parallax-layer clouds"></div>
+
+        <div class="chapter-content reveal">
+            <p class="chapter-number">02</p>
+            <h2>Then,<br>it reaches.</h2>
+            <p>
+                With water, sunlight, and time, the first roots
+                push downward while a small stem reaches toward
+                the light.
+            </p>
+        </div>
+
+        <div class="growing-tree" id="growingTree">
+            <div class="trunk"></div>
+            <div class="branch branch-left"></div>
+            <div class="branch branch-right"></div>
+            <div class="leaves leaves-one"></div>
+            <div class="leaves leaves-two"></div>
+            <div class="leaves leaves-three"></div>
+        </div>
+    </section>
+
+
+    <!-- CHAPTER 3 -->
+    <section class="chapter chapter-three">
+        <div class="chapter-content reveal">
+            <p class="chapter-number">03</p>
+            <h2>Growth takes<br>time.</h2>
+            <p>
+                A tree does not become a forest overnight.
+                Season after season, it grows stronger,
+                taller, and wider.
+            </p>
+        </div>
+
+        <div class="forest-background" id="forestBackground">
+            <div class="tree tree-small tree-a"></div>
+            <div class="tree tree-medium tree-b"></div>
+            <div class="tree tree-large tree-c"></div>
+            <div class="tree tree-medium tree-d"></div>
+            <div class="tree tree-small tree-e"></div>
+        </div>
+    </section>
+
+
+    <!-- CHAPTER 4 -->
+    <section class="chapter chapter-four">
+        <div class="chapter-content reveal">
+            <p class="chapter-number">04</p>
+            <h2>One becomes<br>many.</h2>
+            <p>
+                Seeds fall. New trees emerge. What began as
+                a single life becomes a connected ecosystem.
+            </p>
+        </div>
+
+        <div class="forest" id="forest">
+            <div class="forest-tree tree-1"></div>
+            <div class="forest-tree tree-2"></div>
+            <div class="forest-tree tree-3"></div>
+            <div class="forest-tree tree-4"></div>
+            <div class="forest-tree tree-5"></div>
+            <div class="forest-tree tree-6"></div>
+            <div class="forest-tree tree-7"></div>
+            <div class="forest-tree tree-8"></div>
+        </div>
+    </section>
+
+
+    <!-- ENDING -->
+    <section class="ending">
+        <div class="ending-content reveal">
+            <p class="chapter-number">05</p>
+            <h2>Everything<br>starts small.</h2>
+
+            <p>
+                A seed becomes a tree.
+                A tree becomes a forest.
+                And a small beginning can become something much larger.
+            </p>
+
+            <button id="restartButton">START AGAIN ↑</button>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
